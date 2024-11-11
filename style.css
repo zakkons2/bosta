@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eaeaea;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+header .menu {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    color: black;
+}
+
+.intro .carro-img {
+    float: right;
+    width: 150px;
+    margin-left: 20px;
+}
+
+.intro .bandeira {
+    float: right;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.intro p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.modelos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modelo {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modelo img {
+    width: 100px;
+    height: auto;
+}
+
+.modelo h3 {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    color: black;
+}
+
+.modelo p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.4;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
+.fusca {
+    width: 500px;
+}               
